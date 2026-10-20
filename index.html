@@ -3,34 +3,264 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#26372d">
-<meta name="description" content="Conceito de site para Arca Café — uma experiência de café, encontros e sabores.">
-<title>Arca Café — Um lugar para ficar</title>
+<meta name="theme-color" content="#FBF7F0">
+<meta name="description" content="Confira o cardápio do Arca Café, em Cuiabá: cafés, bebidas, lanches, doces, saladas e almoço buffet.">
+<meta name="keywords" content="Arca Café, cafeteria, cardápio, café, Cuiabá, Mato Grosso">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ARCA CAFÉ — Cardápio">
+<meta property="og:description" content="Feito com muito amor. Confira nosso cardápio em Cuiabá.">
+<meta property="og:locale" content="pt_BR">
+<title>ARCA CAFÉ — Cardápio da casa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--forest:#26372d;--olive:#66735b;--cream:#f4f0e7;--paper:#fffdf8;--clay:#b96f4d;--ink:#242720;--muted:#77776d;--line:rgba(38,55,45,.16)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 44px));margin:auto}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-family:"Playfair Display",serif;font-size:28px;letter-spacing:-1px;color:var(--forest)}.brand span{color:var(--clay)}nav{display:flex;gap:28px;font-size:13px}nav a:hover{color:var(--clay)}.nav-cta{padding:12px 17px;border:1px solid var(--forest);border-radius:2px}.hero{display:grid;grid-template-columns:1fr .9fr;gap:48px;align-items:center;padding:70px 0 82px}.eyebrow{text-transform:uppercase;letter-spacing:2.4px;font-size:10px;font-weight:700;color:var(--clay)}h1,h2,h3{font-family:"Playfair Display",serif;font-weight:500}h1{font-size:clamp(48px,6.6vw,86px);line-height:.99;letter-spacing:-3px;margin:22px 0}.hero p{max-width:440px;color:#65675e;line-height:1.8;font-size:15px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 21px;background:var(--forest);color:white;font-size:12px;letter-spacing:.3px;border:1px solid var(--forest);transition:.25s}.btn:hover{background:var(--clay);border-color:var(--clay);transform:translateY(-2px)}.btn.secondary{background:transparent;color:var(--forest)}.hero-image{position:relative;min-height:520px}.hero-image img{width:100%;height:520px;object-fit:cover;display:block}.image-note{position:absolute;bottom:-18px;left:-24px;background:var(--paper);padding:18px 22px;max-width:220px;box-shadow:0 12px 36px #20291b12}.image-note small{color:var(--clay);letter-spacing:1.5px;text-transform:uppercase;font-size:9px}.image-note p{font-family:"Playfair Display",serif;font-size:20px;line-height:1.2;margin:8px 0 0;color:var(--forest)}.intro{background:var(--forest);color:var(--cream);padding:66px 0}.intro-grid{display:grid;grid-template-columns:.7fr 1fr;gap:70px;align-items:start}.intro h2{font-size:clamp(34px,4vw,52px);line-height:1.1;margin:10px 0}.intro p{color:#d5d7cd;line-height:1.9;font-size:14px;max-width:600px}.intro .eyebrow{color:#d9a17f}.section{padding:86px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}.section h2{font-size:clamp(36px,4.5vw,56px);margin:12px 0 0}.section-head p{max-width:360px;color:var(--muted);font-size:13px;line-height:1.8}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--paper);padding:12px 12px 22px}.card img{width:100%;height:270px;object-fit:cover;display:block}.card h3{font-size:25px;margin:18px 10px 7px}.card p{font-size:12px;color:var(--muted);line-height:1.7;margin:0 10px}.gallery{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-template-rows:220px 220px;gap:12px}.gallery img{width:100%;height:100%;object-fit:cover}.gallery img:first-child{grid-row:span 2}.visit{background:#e7e2d6;padding:65px 0}.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.visit h2{font-size:clamp(36px,4vw,52px);margin:12px 0}.visit p{color:#66685e;font-size:14px;line-height:1.8}.visit-box{border-left:1px solid #b7b7a9;padding-left:28px}.visit-box strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:1.4px;margin:16px 0 5px}.visit-box span{font-size:14px;color:#66685e}.footer{background:var(--forest);color:var(--cream);padding:30px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer small{color:#c2c9bc;font-size:11px}.disclaimer{text-align:center;background:#efe1c8;color:#624c34;font-size:11px;padding:10px 20px}
-@media(max-width:760px){.wrap{width:min(100% - 30px,560px)}.topbar{height:68px}nav{gap:12px}nav a:not(.nav-cta){display:none}.brand{font-size:25px}.hero{grid-template-columns:1fr;gap:28px;padding:48px 0 60px}h1{letter-spacing:-1.8px}.hero-image{min-height:350px;margin-left:12px}.hero-image img{height:360px}.image-note{left:-12px}.intro-grid,.visit-grid{grid-template-columns:1fr;gap:20px}.intro{padding:52px 0}.section{padding:60px 0}.section-head{display:block}.cards{grid-template-columns:1fr}.card img{height:260px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:190px 190px 190px}.gallery img:first-child{grid-row:auto;grid-column:span 2}.visit-box{padding-left:18px}.footer-row{align-items:flex-start;flex-direction:column}}
+:root{--paper:#FBF7F0;--red:#A8442A;--red-dark:#8A3420;--red-light:#C9674A;--ink:#3A1F18;--line:rgba(168,68,42,.35);--soft:rgba(168,68,42,.07);--display:"Playfair Display",Georgia,"Times New Roman",serif;--body:"DM Sans",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:140px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;background-image:radial-gradient(rgba(58,31,24,.045) .55px,transparent .55px);background-size:5px 5px}a{color:inherit}button,input{font:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--red-light);outline-offset:3px}.wrap{width:min(1100px,calc(100% - 32px));margin:auto}.masthead{text-align:center;padding:28px 16px 22px;border-bottom:3px double var(--red);position:relative}.masthead:before,.masthead:after{content:"";position:absolute;bottom:7px;width:34px;height:14px;border-top:1px solid var(--red);border-bottom:1px solid var(--red)}.masthead:before{left:calc(50% - 55px)}.masthead:after{right:calc(50% - 55px)}.brand{display:inline-flex;flex-direction:column;align-items:center;text-decoration:none;color:var(--red);line-height:.9} .brand-main{font-family:var(--display);font-size:clamp(3.8rem,11vw,6.6rem);font-weight:800;letter-spacing:.07em}.brand-sub{font-family:var(--body);font-size:1.15rem;font-weight:800;letter-spacing:.55em;margin:.65rem 0 0 .55em}.tagline{font-family:var(--display);font-style:italic;color:var(--red);margin:15px 0 0;font-size:1.05rem}.topline{font-size:.72rem;letter-spacing:.19em;text-transform:uppercase;margin:0 0 8px;color:var(--red-dark)}.category-nav{position:sticky;top:0;z-index:20;background:rgba(251,247,240,.97);border-bottom:1px solid var(--line);box-shadow:0 4px 14px rgba(58,31,24,.05);backdrop-filter:blur(8px)}.nav-inner{display:flex;gap:8px;overflow-x:auto;scrollbar-width:thin;padding:12px 0;white-space:nowrap}.nav-inner a{flex:0 0 auto;text-decoration:none;border:1px solid var(--line);border-radius:2px;padding:8px 12px;font-size:.8rem;font-weight:700;color:var(--red-dark);transition:background .2s,color .2s}.nav-inner a:hover,.nav-inner a.active{background:var(--red);color:var(--paper)}.hero{text-align:center;padding:46px 0 28px}.eyebrow{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--red);font-weight:700}.hero h1{font:700 clamp(2rem,5vw,3.4rem)/1.12 var(--display);color:var(--red);max-width:780px;margin:12px auto}.hero p{max-width:560px;margin:0 auto 22px}.ornament{display:flex;align-items:center;justify-content:center;gap:14px;color:var(--red);margin:28px auto}.ornament:before,.ornament:after{content:"";width:min(120px,22vw);border-top:1px solid var(--red-light)}.hero-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;background:var(--red);color:var(--paper);border:1px solid var(--red);padding:12px 18px;font-weight:700;font-size:.9rem;transition:background .2s,transform .2s}.btn:hover{background:var(--red-dark);border-color:var(--red-dark);transform:translateY(-1px)}.btn-outline{background:transparent;color:var(--red)}.btn-outline:hover{color:var(--paper)}.statusline{display:flex;justify-content:center;gap:10px;align-items:center;flex-wrap:wrap;margin-top:22px;font-size:.85rem}.status-pill{display:inline-flex;align-items:center;gap:7px;padding:5px 10px;border:1px solid var(--line);background:var(--soft);font-weight:700;color:var(--red-dark)}.status-dot{width:8px;height:8px;border-radius:50%;background:var(--red-light);display:inline-block}.status-pill.open .status-dot{background:var(--red)}.search-area{margin:10px auto 30px;max-width:600px}.search-label{display:block;font-weight:700;color:var(--red-dark);font-size:.83rem;margin-bottom:7px}.search-box{position:relative}.search-box span{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--red);font-size:1.1rem}.search-box input{width:100%;padding:13px 15px 13px 42px;border:1px solid var(--line);background:rgba(255,255,255,.5);color:var(--ink);border-radius:0}.search-box input::placeholder{color:#80584d}.menu-section{padding:25px 0 22px;scroll-margin-top:135px}.section-head{text-align:center;margin:0 auto 22px}.section-head h2{font:700 clamp(1.55rem,4vw,2.3rem)/1.2 var(--display);color:var(--red);margin:0}.section-head p{margin:9px auto 0;max-width:680px;font-size:.92rem}.section-head .rule{height:8px;width:150px;margin:14px auto 0;border-top:3px double var(--red);position:relative}.section-head .rule:after{content:"✦";position:absolute;top:-13px;left:calc(50% - 9px);background:var(--paper);padding:0 7px;color:var(--red)}.menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}.menu-item{padding:15px 0 16px;border-bottom:1px dotted var(--line);break-inside:avoid}.item-line{display:flex;align-items:baseline;gap:8px}.item-name{font-family:var(--display);font-size:1.04rem;font-weight:700;line-height:1.35}.leader{flex:1;min-width:12px;border-bottom:2px dotted var(--red-light);transform:translateY(-4px);opacity:.8}.price{white-space:nowrap;color:var(--red);font-weight:800;font-size:.98rem}.item-desc{font-size:.86rem;line-height:1.5;margin:5px 0 0;color:var(--ink)}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}.tag{border:1px solid var(--line);color:var(--red-dark);font-size:.68rem;font-weight:700;padding:2px 7px;text-transform:uppercase;letter-spacing:.04em}.empty-state{text-align:center;padding:26px;border:1px dashed var(--line);margin:18px 0;color:var(--red-dark)}.hidden{display:none!important}.feature{padding:30px 0}.feature-card{border:3px double var(--red);outline:1px solid var(--line);outline-offset:-9px;text-align:center;padding:34px 22px;background:rgba(168,68,42,.045)}.feature-card .kicker{text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--red);font-size:.75rem}.feature-card h2{font:800 clamp(2rem,5vw,3rem)/1.15 var(--display);color:var(--red);margin:9px 0}.feature-price{font:800 clamp(1.7rem,4vw,2.4rem) var(--display);color:var(--red-dark);margin:10px 0}.feature-card p{margin:5px 0}.house-note{margin:28px auto 44px;max-width:840px;text-align:center;border-top:1px solid var(--red);border-bottom:1px solid var(--red);padding:26px 20px;position:relative}.house-note:before,.house-note:after{content:"❧";color:var(--red);font-size:1.3rem;position:absolute;left:50%;transform:translateX(-50%);background:var(--paper);padding:0 12px}.house-note:before{top:-17px}.house-note:after{bottom:-17px}.house-note h2{font:700 clamp(1.5rem,4vw,2rem) var(--display);color:var(--red);margin:0 0 9px}.house-note p{max-width:700px;margin:auto}.info-section{padding:30px 0 44px}.info-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.info-card{border:1px solid var(--line);padding:20px;background:rgba(255,255,255,.25)}.info-card h3{font:700 1.2rem var(--display);color:var(--red);margin:0 0 9px}.info-card p{font-size:.9rem;margin:5px 0}.info-card .small{font-size:.78rem}.footer{border-top:3px double var(--red);padding:26px 0 20px;text-align:center}.footer-brand{font:800 1.7rem var(--display);letter-spacing:.1em;color:var(--red)}.footer p{font-size:.84rem;margin:5px 0}.footer-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:14px 0}.footer-links a{color:var(--red-dark);font-weight:700;font-size:.86rem}.copyright{border-top:1px solid var(--line);margin-top:20px!important;padding-top:14px;color:var(--red-dark);font-size:.75rem!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:700px){.wrap{width:min(100% - 26px,600px)}.masthead{padding-top:24px}.brand-main{font-size:4.1rem}.hero{padding-top:32px}.menu-grid{grid-template-columns:1fr;gap:0}.menu-section{padding-top:18px}.item-name{font-size:1rem}.info-grid{grid-template-columns:1fr}.info-card{padding:17px}.nav-inner{width:100%;padding:10px 13px}.hero-actions .btn{flex:1 1 145px}.feature-card{padding:30px 18px}.statusline{font-size:.8rem}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 </style>
 </head>
 <body>
-<div class="disclaimer">ESTUDO VISUAL DEMONSTRATIVO · fotos e textos ilustrativos, sujeitos à validação do estabelecimento</div>
-<header class="wrap topbar"><a class="brand" href="#">arca<span>.</span></a><nav><a href="#experiencia">Experiência</a><a href="#sabores">Sabores</a><a href="#galeria">Galeria</a><a class="nav-cta" href="https://www.instagram.com/arcacafe24/" target="_blank" rel="noopener">Instagram ↗</a></nav></header>
-<main>
-<section class="wrap hero">
-<div><div class="eyebrow">Café · Encontros · Afeto</div><h1>Um lugar<br>para ficar<br><em>mais um pouco.</em></h1><p>Uma pausa no ritmo do dia. Um café servido sem pressa, conversas que se estendem e sabores que convidam a voltar.</p><div class="actions"><a class="btn" href="#experiencia">Conheça a Arca <span aria-hidden="true">&nbsp;↗</span></a><a class="btn secondary" href="https://www.instagram.com/arcacafe24/" target="_blank" rel="noopener">Acompanhe no Instagram</a></div></div>
-<div class="hero-image"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85" alt="Café sendo preparado em um ambiente aconchegante"><div class="image-note"><small>Uma pausa com intenção</small><p>Pequenos momentos. Boas memórias.</p></div></div>
-</section>
-<section class="intro" id="experiencia"><div class="wrap intro-grid"><div><div class="eyebrow">A experiência Arca</div><h2>Mais do que uma parada para o café.</h2></div><div><p>Um espaço para desacelerar, encontrar pessoas e aproveitar o presente. Este conceito de site foi pensado para transmitir acolhimento por meio de imagens amplas, cores naturais e uma navegação simples.</p><p>O texto definitivo deve ser ajustado à história, ao ambiente e à proposta real do Arca Café.</p></div></div></section>
-<section class="wrap section" id="sabores"><div class="section-head"><div><div class="eyebrow">Uma mesa cheia de possibilidades</div><h2>Feito para apreciar.</h2></div><p>Uma prévia de como destacar os produtos mais queridos da casa. Os itens abaixo são imagens de referência, não um cardápio confirmado.</p></div><div class="cards">
-<article class="card"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Xícara de café sobre uma mesa"><h3>Café com calma</h3><p>Espaço para apresentar cafés, métodos e bebidas realmente servidos na casa.</p></article>
-<article class="card"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80" alt="Sobremesa servida em uma taça"><h3>Doce pausa</h3><p>Uma seleção visual dos doces e acompanhamentos disponíveis no estabelecimento.</p></article>
-<article class="card"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Pães e confeitaria artesanal"><h3>Para compartilhar</h3><p>Conteúdo a personalizar com os produtos e as especialidades confirmadas.</p></article>
-</div></section>
-<section class="wrap section" id="galeria"><div class="section-head"><div><div class="eyebrow">Um olhar de perto</div><h2>Um pouco da atmosfera.</h2></div><p>Na versão final, esta galeria deve priorizar fotos reais publicadas pelo Arca Café, com autorização para uso.</p></div><div class="gallery"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=85" alt="Interior de cafeteria"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=85" alt="Café e utensílios"><img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=700&q=85" alt="Mesa em cafeteria"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=85" alt="Ambiente de restaurante"><img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=700&q=85" alt="Detalhes de uma mesa posta"></div></section>
-<section class="visit"><div class="wrap visit-grid"><div><div class="eyebrow">Venha conhecer</div><h2>Seu próximo momento começa aqui.</h2><p>Confira os canais oficiais para acompanhar novidades e confirmar informações antes da visita.</p><a class="btn" href="https://www.instagram.com/arcacafe24/" target="_blank" rel="noopener">Abrir Instagram ↗</a></div><div class="visit-box"><strong>Instagram</strong><span>@arcacafe24</span><strong>Endereço</strong><span>Confirmar com o estabelecimento antes da publicação final.</span><strong>Horários e contato</strong><span>Adicionar após validação oficial.</span></div></div></section>
+<header class="masthead">
+  <p class="topline">Cafeteria • Cuiabá, Mato Grosso</p>
+  <a class="brand" href="#inicio" aria-label="Arca Café — início">
+    <!-- Para usar a logo original, substitua este bloco de texto por uma imagem; se necessário, use data:image/...;base64,... -->
+    <span class="brand-main">ARCA</span><span class="brand-sub">CaFé</span>
+  </a>
+  <p class="tagline">Feito com muito amor</p>
+</header>
+<nav class="category-nav" aria-label="Navegação por categorias"><div class="wrap nav-inner" id="categoryNav"></div></nav>
+<main id="inicio">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <span class="eyebrow">Cardápio da casa</span>
+    <h1 id="hero-title">Sabores que acolhem.<br>Momentos que ficam.</h1>
+    <p>Um convite para desacelerar, tomar um bom café e aproveitar cada pedacinho do dia.</p>
+    <div class="hero-actions">
+      <a class="btn" id="orderButton" href="https://wa.me/556599904583?text=Ol%C3%A1%21%20Vi%20o%20card%C3%A1pio%20do%20Arca%20Caf%C3%A9%20e%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">♡ Fazer pedido</a>
+      <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+24+de+Outubro+584+Centro+Norte+Cuiaba+MT" target="_blank" rel="noopener">⌖ Ver no mapa</a>
+    </div>
+    <div class="statusline" aria-live="polite"><span class="status-pill" id="openStatus"><span class="status-dot"></span><span id="openText">Consultando horário…</span></span><span id="buffetStatus"></span></div>
+    <div class="ornament" aria-hidden="true">✦</div>
+    <div class="search-area">
+      <label class="search-label" for="menuSearch">Encontre seu favorito</label>
+      <div class="search-box"><span aria-hidden="true">⌕</span><input id="menuSearch" type="search" placeholder="Buscar café, bolo, sanduíche..." autocomplete="off"></div>
+    </div>
+  </section>
+  <div class="wrap" id="menuSections" aria-live="polite"></div>
+  <section class="feature" id="almoco">
+    <div class="wrap"><div class="feature-card">
+      <span class="kicker">De segunda a sexta</span>
+      <h2>Almoço com sabor de casa</h2>
+      <p>Buffet</p><div class="feature-price">R$ 80,00 o kg</div>
+      <p>Das 11h às 13h30</p><p class="small">Não há buffet em feriados.</p>
+    </div></div>
+  </section>
+  <section class="house-note wrap" id="aviso">
+    <h2>Preparamos tudo com muito amor!</h2>
+    <p>Para manter a qualidade e o sabor especial de cada prato, servimos as receitas exatamente como foram cuidadosamente pensadas. Por isso, não realizamos trocas ou substituições nos itens do menu.</p>
+  </section>
+  <section class="info-section wrap" id="informacoes">
+    <div class="section-head"><h2>Encontre a gente</h2><div class="rule"></div></div>
+    <div class="info-grid">
+      <article class="info-card"><h3>Horários</h3><p><strong>Segunda a sábado:</strong> 7h às 19h</p><p><strong>Domingo:</strong> fechado</p><p><strong>Feriados:</strong> 8h às 18h</p><p class="small">Em feriados que caem no domingo, permanecemos fechados.</p></article>
+      <article class="info-card"><h3>Almoço buffet</h3><p><strong>Segunda a sexta:</strong> 11h às 13h30</p><p>Não há buffet em feriados.</p><p class="small" id="infoBuffetStatus"></p></article>
+      <article class="info-card"><h3>Visite o Arca</h3><p>Rua 24 de Outubro, 584</p><p>Centro Norte, Cuiabá – MT</p><p><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+24+de+Outubro+584+Centro+Norte+Cuiaba+MT" target="_blank" rel="noopener">Abrir rota no Google Maps ↗</a></p><p><a href="https://www.instagram.com/arcacafe24/" target="_blank" rel="noopener">@arcacafe24 no Instagram ↗</a></p></article>
+    </div>
+  </section>
 </main>
-<footer class="footer"><div class="wrap footer-row"><a class="brand" href="#" style="color:var(--cream)">arca<span>.</span></a><small>Conceito de demonstração · Identidade e informações sujeitas à confirmação.</small></div></footer>
-</body></html>
+<footer class="footer"><div class="wrap">
+  <div class="footer-brand">ARCA CaFé</div><p>Feito com muito amor</p><p>Rua 24 de Outubro, 584 — Centro Norte, Cuiabá – MT</p>
+  <div class="footer-links"><a href="https://www.instagram.com/arcacafe24/" target="_blank" rel="noopener">Instagram @arcacafe24</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+24+de+Outubro+584+Centro+Norte+Cuiaba+MT" target="_blank" rel="noopener">Ver no mapa</a><a id="footerOrder" href="https://wa.me/556599904583?text=Ol%C3%A1%21%20Vi%20o%20card%C3%A1pio%20do%20Arca%20Caf%C3%A9%20e%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">Fazer pedido</a></div>
+  <p class="copyright">© <span id="year"></span> ARCA CAFÉ. Todos os direitos reservados.</p>
+</div></footer>
+<script>
+"use strict";
+// Troque o número abaixo se o WhatsApp da casa mudar. Use somente DDI + DDD + número.
+const WHATSAPP = "556599904583";
+const WHATSAPP_MESSAGE = "Olá! Vi o cardápio do Arca Café e gostaria de fazer um pedido.";
+// Datas de feriados nacionais e datas móveis adotadas para o indicador. Acrescente aqui feriados estaduais e municipais.
+const FERIADOS = [
+  "2026-01-01","2026-02-16","2026-02-17","2026-04-03","2026-04-21","2026-05-01","2026-06-04","2026-09-07","2026-10-12","2026-11-02","2026-11-15","2026-11-20","2026-12-25",
+  "2027-01-01","2027-02-08","2027-02-09","2027-03-26","2027-04-21","2027-05-01","2027-05-27","2027-09-07","2027-10-12","2027-11-02","2027-11-15","2027-11-20","2027-12-25"
+];
+const categorias = [
+ {nome:"Opções proteicas e saudáveis", itens:[
+  {nome:"Iogurte grego da casa com granola e mel (receita de família)",preco:"R$ 20,00"},
+  {nome:"Bowl de frutas com granola e mel",preco:"R$ 18,00"},
+  {nome:"Shake de whey, com banana, aveia e pasta de amendoim",preco:"R$ 24,00"}]},
+ {nome:"Saladas",itens:[
+  {nome:"Mediterrânea",descricao:"mix de folhas, tomate-cereja, pepino, azeitona roxa, queijo branco e molho pesto de manjericão",preco:"R$ 42,00"},
+  {nome:"Proteica",descricao:"quinoa, frango grelhado em cubos, rúcula, cebola roxa, cenoura ralada e sementes de abóbora temperada com azeite e sal",preco:"R$ 45,00"},
+  {nome:"Folhas e grãos",descricao:"mix de folhas e grãos selecionados e legumes crocantes",preco:"R$ 45,00"}]},
+ {nome:"Sanduíches com frescor e sabor",aviso:"Pão à escolha, brioche ou multigrãos.",itens:[
+  {nome:"Brioche com frango cremoso",descricao:"macio e dourado com salpicãozinho de frango",preco:"R$ 34,00"},
+  {nome:"Tostada de pão artesanal com abobrinha grelhada, creme de ricota e pesto de manjericão",descricao:"leve e sofisticada no ponto certo",preco:"R$ 32,00"},
+  {nome:"Tostada de pão artesanal com abacate e ovo",descricao:"combinação clássica e vibrante",preco:"R$ 36,00"}]},
+ {nome:"Quentinhos que fazem sorrir",aviso:"Pão à escolha, brioche ou multigrãos.",itens:[
+  {nome:"Misto quente",descricao:"pão dourado na chapa, recheado com presunto e queijo derretido",preco:"R$ 16,00"},
+  {nome:"Queijo quente",descricao:"pão dourado na chapa com queijo derretendo",preco:"R$ 16,00"},
+  {nome:"Ovos mexidos e pão na chapa",descricao:"3 ovos perfeitos para qualquer hora do dia",preco:"R$ 25,00"}]},
+ {nome:"Pão de queijo mineiro: o sanduíche que conquista no primeiro pedaço!!",itens:[
+  {nome:"Presunto e queijo cremoso na chapa",descricao:"combinação clássica, dourada e derretida, perfeita para qualquer hora",preco:"R$ 22,00"},
+  {nome:"Carne de panela e rúcula",descricao:"sabor caseiro com toque verde",preco:"R$ 25,00"},
+  {nome:"Caprese",descricao:"creme de ricota, tomate confitado e manjericão fresco, um equilíbrio sofisticado",preco:"R$ 22,00"},
+  {nome:"Doce de leite",descricao:"incrivelmente delicioso",preco:"R$ 20,00"}]},
+ {nome:"Lanches rápidos até R$ 12",itens:[
+  {nome:"Bolo de queijo cuiabano (receita da Tia Laly)",preco:"R$ 8,00"},
+  {nome:"Pão de queijo mineiro",preco:"R$ 6,00"},
+  {nome:"Esfirra de carne",preco:"R$ 12,00"},
+  {nome:"Pão de batata com presunto e queijo",preco:"R$ 12,00"},
+  {nome:"Trouxinha de frango",preco:"R$ 12,00"}]},
+ {nome:"Doces",itens:[
+  {nome:"Bolo de cenoura com calda de chocolate",preco:"R$ 18,00",tags:["Sem lactose","Contém glúten"]},
+  {nome:"Bolo de fubá com calda de goiabada",descricao:"clássico da roça, com o contraste perfeito entre o fubá macio e a goiabada doce",preco:"R$ 18,00",tags:["Sem glúten","Sem lactose"]},
+  {nome:"Bolo de pote",preco:"R$ 18,00"},
+  {nome:"Brigadeiro (coco ou chocolate)",preco:"R$ 10,00"},
+  {nome:"Brownie",preco:"R$ 14,00"},
+  {nome:"Brownie com sorvete e calda de chocolate",preco:"R$ 26,00"}]},
+ {nome:"Lasanhas",itens:[
+  {nome:"Clássica",descricao:"cheia de boas lembranças com molho bolonhesa, cozido lentamente, ela é suculenta e cheia de sabor",preco:"R$ 48,00"},
+  {nome:"Frango",descricao:"cremosa e reconfortante, com frango desfiado no molho de tomate e molho branco delicado",preco:"R$ 46,00"},
+  {nome:"Berinjela",descricao:"opção leve e saborosa, com camadas de berinjela grelhada e molho de tomate artesanal e molho branco delicado",preco:"R$ 45,00"}]},
+ {nome:"Bebidas quentes",itens:[
+  {nome:"Café coado",descricao:"aroma intenso e sabor tradicional",preco:"R$ 12,00"},
+  {nome:"Café expresso",descricao:"forte e encorpado",preco:"P R$ 10,00 / G R$ 18,00"},
+  {nome:"Café americano",descricao:"suave e leve",preco:"P R$ 10,00 / G R$ 15,00"},
+  {nome:"Chá",descricao:"veja os sabores disponíveis",preco:"R$ 12,00"},
+  {nome:"Capuccino",descricao:"cremoso, um abraço em forma de café (opcional com canela)",preco:"R$ 16,00"},
+  {nome:"Capuccino sem lactose",preco:"R$ 20,00"},
+  {nome:"Capuccino com borda de doce de leite",preco:"R$ 18,00"},
+  {nome:"Pingado",descricao:"\"aqui o café pinga no leite\"",preco:"R$ 16,00"},
+  {nome:"Chocolate quente finalizado com cacau",preco:"R$ 15,00"},
+  {nome:"Mocaccino",descricao:"chocolate quente com café",preco:"R$ 18,00"},
+  {nome:"Leite A2 sem lactose (copo 200 ml)",preco:"R$ 8,00"}]},
+ {nome:"Bebidas frias",itens:[
+  {nome:"Mate gelado",descricao:"opcional limão",preco:"R$ 10,00"},
+  {nome:"Café gelado com borda de doce de leite",descricao:"refrescante e moderno",preco:"R$ 18,00"},
+  {nome:"Refresco de hibisco com laranja",preco:"R$ 15,00"},
+  {nome:"Suco de laranja",preco:"R$ 15,00"},
+  {nome:"Suco de laranja com cenoura",preco:"R$ 18,00"},
+  {nome:"Suco de uva integral",preco:"R$ 15,00"},
+  {nome:"Suco verde com couve, gengibre, abacaxi e laranja",preco:"R$ 18,00"},
+  {nome:"Pink limonade",preco:"R$ 18,00"},
+  {nome:"Soda de tangerina com gengibre",preco:"R$ 18,00"},
+  {nome:"Soda de maçã verde",preco:"R$ 18,00"},
+  {nome:"Coca, Coca sem açúcar e Guaraná",preco:"R$ 9,00"},
+  {nome:"Água com e sem gás",preco:"R$ 9,00"},
+  {nome:"Limão espremido (shot)",preco:"R$ 4,00"}]}
+];
+const normalize = value => value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLocaleLowerCase("pt-BR");
+const nav = document.getElementById("categoryNav");
+const sections = document.getElementById("menuSections");
+const search = document.getElementById("menuSearch");
+const slug = value => "cat-" + normalize(value).replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+function renderMenu(query=""){
+ const q=normalize(query.trim());
+ nav.innerHTML="";
+ sections.innerHTML="";
+ let total=0;
+ categorias.forEach((cat,index)=>{
+  const visible=cat.itens.filter(item=>!q||normalize(item.nome+" "+(item.descricao||"")+" "+(item.tags||[]).join(" ")).includes(q));
+  const id=slug(cat.nome);
+  const link=document.createElement("a");link.href="#"+id;link.textContent=cat.nome;link.dataset.target=id;nav.appendChild(link);
+  if(!visible.length)return;
+  total+=visible.length;
+  const section=document.createElement("section");section.className="menu-section";section.id=id;section.setAttribute("aria-labelledby",id+"-title");
+  const head=document.createElement("div");head.className="section-head";
+  const h=document.createElement("h2");h.id=id+"-title";h.textContent=cat.nome;head.appendChild(h);
+  const rule=document.createElement("div");rule.className="rule";rule.setAttribute("aria-hidden","true");head.appendChild(rule);
+  if(cat.aviso){const p=document.createElement("p");p.textContent=cat.aviso;head.appendChild(p)}
+  section.appendChild(head);
+  const grid=document.createElement("div");grid.className="menu-grid";
+  visible.forEach(item=>{
+   const article=document.createElement("article");article.className="menu-item";
+   const line=document.createElement("div");line.className="item-line";
+   const name=document.createElement("span");name.className="item-name";name.textContent=item.nome;
+   const leader=document.createElement("span");leader.className="leader";leader.setAttribute("aria-hidden","true");
+   const price=document.createElement("span");price.className="price";price.textContent=item.preco;
+   line.append(name,leader,price);article.appendChild(line);
+   if(item.descricao){const desc=document.createElement("p");desc.className="item-desc";desc.textContent=item.descricao;article.appendChild(desc)}
+   if(item.tags&&item.tags.length){const tags=document.createElement("div");tags.className="tags";item.tags.forEach(label=>{const tag=document.createElement("span");tag.className="tag";tag.textContent=label;tags.appendChild(tag)});article.appendChild(tags)}
+   grid.appendChild(article);
+  });
+  section.appendChild(grid);sections.appendChild(section);
+ });
+ const old=document.getElementById("emptyState");if(old)old.remove();
+ if(!total){const empty=document.createElement("p");empty.id="emptyState";empty.className="empty-state";empty.textContent="Não encontramos esse item. Tente buscar por outro nome ou ingrediente.";sections.appendChild(empty)}
+ updateActiveNav();
+}
+function updateActiveNav(){
+ const links=[...nav.querySelectorAll("a")];
+ if(!("IntersectionObserver" in window)){links.forEach(l=>l.classList.remove("active"));return}
+ if(window.menuObserver)window.menuObserver.disconnect();
+ window.menuObserver=new IntersectionObserver(entries=>{
+  const candidates=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio);
+  if(candidates[0])links.forEach(l=>l.classList.toggle("active",l.dataset.target===candidates[0].target.id));
+ },{rootMargin:"-22% 0px -65% 0px",threshold:[0,.1,.3,.6]});
+ document.querySelectorAll(".menu-section").forEach(section=>window.menuObserver.observe(section));
+ links.forEach(link=>link.addEventListener("click",()=>{links.forEach(l=>l.classList.toggle("active",l===link))}));
+}
+search.addEventListener("input",()=>renderMenu(search.value));
+function dateInCuiaba(){
+ const parts=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Cuiaba",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+ const out={};parts.forEach(p=>out[p.type]=p.value);return {date:out.year+"-"+out.month+"-"+out.day,hour:Number(out.hour),minute:Number(out.minute)};
+}
+function dayForISO(iso){return new Date(iso+"T12:00:00Z").getUTCDay()}
+function plusDays(iso,amount){const d=new Date(iso+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+amount);return d.toISOString().slice(0,10)}
+function isHoliday(date){return FERIADOS.includes(date)}
+function hoursFor(date){
+ const day=dayForISO(date),holiday=isHoliday(date);
+ if(day===0)return {open:false,start:0,end:0,holiday};
+ return holiday?{open:true,start:8,end:18,holiday:true}:{open:true,start:7,end:19,holiday:false};
+}
+function timeText(hour){return hour+"h"}
+function nextOpening(date){
+ for(let i=0;i<370;i++){
+  const candidate=plusDays(date,i),h=hoursFor(candidate);
+  if(h.open)return {date:candidate,hour:h.start};
+ }
+ return null;
+}
+function formatDay(date,today){
+ if(date===today)return "hoje";
+ if(date===plusDays(today,1))return "amanhã";
+ const d=new Date(date+"T12:00:00Z");
+ return new Intl.DateTimeFormat("pt-BR",{timeZone:"UTC",weekday:"long"}).format(d);
+}
+function updateHours(){
+ const now=dateInCuiaba(),h=hoursFor(now.date),minutes=now.hour*60+now.minute;
+ const openNow=h.open&&minutes>=h.start*60&&minutes<h.end*60;
+ const pill=document.getElementById("openStatus"),openText=document.getElementById("openText");
+ pill.classList.toggle("open",openNow);
+ openText.textContent=openNow?"Aberto agora":"Fechado";
+ if(openNow){openText.textContent="Aberto agora · até "+timeText(h.end)}
+ else{
+  const next=nextOpening(now.date);
+  if(h.open&&minutes<h.start*60)openText.textContent="Fechado · abrimos hoje às "+timeText(h.start);
+  else if(next)openText.textContent="Fechado · abrimos "+formatDay(next.date,now.date)+" às "+timeText(next.hour);
+ }
+ const day=dayForISO(now.date),holiday=isHoliday(now.date);
+ const buffetDay=day>=1&&day<=5&&!holiday;
+ const buffetNow=buffetDay&&minutes>=11*60&&minutes<13*60+30;
+ let buffetText="";
+ if(buffetNow)buffetText="Buffet servindo agora";
+ else if(buffetDay&&minutes<11*60)buffetText="Buffet hoje das 11h às 13h30";
+ else if(buffetDay&&minutes>=13*60+30)buffetText="Buffet encerrado hoje";
+ else if(holiday)buffetText="Sem buffet em feriados";
+ else if(day===0)buffetText="Sem buffet aos domingos";
+ else buffetText="Buffet de segunda a sexta, das 11h às 13h30";
+ document.getElementById("buffetStatus").textContent=buffetText;
+ document.getElementById("infoBuffetStatus").textContent=buffetText;
+}
+function setupWhatsApp(){
+ const button=document.getElementById("orderButton"),footer=document.getElementById("footerOrder");
+ if(!WHATSAPP.trim()){button.hidden=true;footer.hidden=true;return}
+ const url="https://wa.me/"+WHATSAPP.replace(/\D/g,"")+"?text="+encodeURIComponent(WHATSAPP_MESSAGE);
+ button.href=url;footer.href=url;
+}
+document.getElementById("year").textContent=new Date().getFullYear();
+renderMenu();updateHours();setupWhatsApp();
+setInterval(updateHours,60000);
+</script>
+</body>
+</html>
